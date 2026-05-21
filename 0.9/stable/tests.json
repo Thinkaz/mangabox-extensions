@@ -7,41 +7,38 @@
         "name": "initialisation",
         "runner": {},
         "status": "pass",
-        "duration": 97
+        "duration": 94
       },
       {
         "name": "getSearchResults",
         "runner": {},
         "status": "pass",
-        "duration": 388
+        "duration": 652
       },
       {
         "name": "getMangaDetails",
         "runner": {},
-        "status": "fail",
-        "error": "Error: Request failed with status 404: https://www.mangabats.com/manga/neko-kaburi-no-ohime-sama",
-        "duration": 136
+        "status": "pass",
+        "duration": 83
       },
       {
         "name": "getChapters",
         "runner": {},
-        "status": "fail",
-        "error": "Error: No `sourceManga` provided in test data. Unable to infer from `MangaProviding.getMangaDetails`",
-        "duration": 0
+        "status": "pass",
+        "duration": 290
       },
       {
         "name": "getChapterDetails",
         "runner": {},
-        "status": "fail",
-        "error": "Error: No `sourceManga` provided in test data. Unable to infer from `MangaProviding.getMangaDetails`",
-        "duration": 0
+        "status": "pass",
+        "duration": 329
       }
     ],
     "summary": {
-      "passed": 2,
-      "failed": 3,
+      "passed": 5,
+      "failed": 0,
       "total": 5,
-      "duration": 621
+      "duration": 1448
     }
   },
   "MangaKakalot": {
@@ -52,14 +49,14 @@
         "name": "initialisation",
         "runner": {},
         "status": "pass",
-        "duration": 70
+        "duration": 68
       },
       {
         "name": "getSearchResults",
         "runner": {},
         "status": "fail",
         "error": "Error: Cloudflare detected, bypass it to continue!",
-        "duration": 71
+        "duration": 181
       },
       {
         "name": "getMangaDetails",
@@ -87,7 +84,7 @@
       "passed": 1,
       "failed": 4,
       "total": 5,
-      "duration": 141
+      "duration": 249
     }
   },
   "MangaNato": {
@@ -98,41 +95,38 @@
         "name": "initialisation",
         "runner": {},
         "status": "pass",
-        "duration": 43
+        "duration": 37
       },
       {
         "name": "getSearchResults",
         "runner": {},
         "status": "pass",
-        "duration": 485
+        "duration": 593
       },
       {
         "name": "getMangaDetails",
         "runner": {},
-        "status": "fail",
-        "error": "Error: Request failed with status 404: https://www.manganato.gg/manga/neko-kaburi-no-ohime-sama",
-        "duration": 203
+        "status": "pass",
+        "duration": 476
       },
       {
         "name": "getChapters",
         "runner": {},
-        "status": "fail",
-        "error": "Error: No `sourceManga` provided in test data. Unable to infer from `MangaProviding.getMangaDetails`",
-        "duration": 0
+        "status": "pass",
+        "duration": 284
       },
       {
         "name": "getChapterDetails",
         "runner": {},
-        "status": "fail",
-        "error": "Error: No `sourceManga` provided in test data. Unable to infer from `MangaProviding.getMangaDetails`",
-        "duration": 0
+        "status": "pass",
+        "duration": 427
       }
     ],
     "summary": {
-      "passed": 2,
-      "failed": 3,
+      "passed": 5,
+      "failed": 0,
       "total": 5,
-      "duration": 731
+      "duration": 1817
     }
   },
   "MangaNelo": {
@@ -143,14 +137,14 @@
         "name": "initialisation",
         "runner": {},
         "status": "pass",
-        "duration": 7
+        "duration": 4
       },
       {
         "name": "getSearchResults",
         "runner": {},
         "status": "fail",
         "error": "Error: Cloudflare detected, bypass it to continue!",
-        "duration": 140
+        "duration": 245
       },
       {
         "name": "getMangaDetails",
@@ -178,7 +172,7 @@
       "passed": 1,
       "failed": 4,
       "total": 5,
-      "duration": 147
+      "duration": 249
     }
   }
 }
