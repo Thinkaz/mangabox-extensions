@@ -13,35 +13,32 @@
         "name": "getSearchResults",
         "runner": {},
         "status": "pass",
-        "duration": 743
+        "duration": 717
       },
       {
         "name": "getMangaDetails",
         "runner": {},
-        "status": "fail",
-        "error": "Error: Request failed with status 404: https://www.mangabats.com/manga/dream-master",
-        "duration": 337
+        "status": "pass",
+        "duration": 142
       },
       {
         "name": "getChapters",
         "runner": {},
-        "status": "fail",
-        "error": "Error: No `sourceManga` provided in test data. Unable to infer from `MangaProviding.getMangaDetails`",
-        "duration": 1
+        "status": "pass",
+        "duration": 356
       },
       {
         "name": "getChapterDetails",
         "runner": {},
-        "status": "fail",
-        "error": "Error: No `sourceManga` provided in test data. Unable to infer from `MangaProviding.getMangaDetails`",
-        "duration": 0
+        "status": "pass",
+        "duration": 511
       }
     ],
     "summary": {
-      "passed": 2,
-      "failed": 3,
+      "passed": 5,
+      "failed": 0,
       "total": 5,
-      "duration": 1159
+      "duration": 1804
     }
   },
   "MangaKakalot": {
@@ -52,14 +49,14 @@
         "name": "initialisation",
         "runner": {},
         "status": "pass",
-        "duration": 54
+        "duration": 52
       },
       {
         "name": "getSearchResults",
         "runner": {},
         "status": "fail",
         "error": "Error: Cloudflare detected, bypass it to continue!",
-        "duration": 234
+        "duration": 218
       },
       {
         "name": "getMangaDetails",
@@ -87,7 +84,7 @@
       "passed": 1,
       "failed": 4,
       "total": 5,
-      "duration": 289
+      "duration": 271
     }
   },
   "MangaNato": {
@@ -104,35 +101,32 @@
         "name": "getSearchResults",
         "runner": {},
         "status": "pass",
-        "duration": 798
+        "duration": 784
       },
       {
         "name": "getMangaDetails",
         "runner": {},
-        "status": "fail",
-        "error": "Error: Request failed with status 404: https://www.manganato.gg/manga/dream-master",
-        "duration": 344
+        "status": "pass",
+        "duration": 548
       },
       {
         "name": "getChapters",
         "runner": {},
-        "status": "fail",
-        "error": "Error: No `sourceManga` provided in test data. Unable to infer from `MangaProviding.getMangaDetails`",
-        "duration": 0
+        "status": "pass",
+        "duration": 393
       },
       {
         "name": "getChapterDetails",
         "runner": {},
-        "status": "fail",
-        "error": "Error: No `sourceManga` provided in test data. Unable to infer from `MangaProviding.getMangaDetails`",
-        "duration": 0
+        "status": "pass",
+        "duration": 383
       }
     ],
     "summary": {
-      "passed": 2,
-      "failed": 3,
+      "passed": 5,
+      "failed": 0,
       "total": 5,
-      "duration": 1170
+      "duration": 2136
     }
   },
   "MangaNelo": {
@@ -143,14 +137,14 @@
         "name": "initialisation",
         "runner": {},
         "status": "pass",
-        "duration": 5
+        "duration": 4
       },
       {
         "name": "getSearchResults",
         "runner": {},
         "status": "fail",
         "error": "Error: Cloudflare detected, bypass it to continue!",
-        "duration": 234
+        "duration": 217
       },
       {
         "name": "getMangaDetails",
@@ -171,14 +165,14 @@
         "runner": {},
         "status": "fail",
         "error": "Error: No `sourceManga` provided in test data. Unable to infer from `MangaProviding.getMangaDetails`",
-        "duration": 0
+        "duration": 1
       }
     ],
     "summary": {
       "passed": 1,
       "failed": 4,
       "total": 5,
-      "duration": 239
+      "duration": 222
     }
   }
 }
