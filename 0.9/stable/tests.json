@@ -7,41 +7,41 @@
         "name": "initialisation",
         "runner": {},
         "status": "pass",
-        "duration": 85
+        "duration": 78
       },
       {
         "name": "getSearchResults",
         "runner": {},
         "status": "pass",
-        "duration": 631
+        "duration": 406
       },
       {
         "name": "getMangaDetails",
         "runner": {},
         "status": "fail",
         "error": "Error: Request failed with status 404: https://www.mangabats.com/manga/KVUMLM9",
-        "duration": 243
+        "duration": 116
       },
       {
         "name": "getChapters",
         "runner": {},
         "status": "fail",
         "error": "Error: No `sourceManga` provided in test data. Unable to infer from `MangaProviding.getMangaDetails`",
-        "duration": 1
+        "duration": 0
       },
       {
         "name": "getChapterDetails",
         "runner": {},
         "status": "fail",
         "error": "Error: No `sourceManga` provided in test data. Unable to infer from `MangaProviding.getMangaDetails`",
-        "duration": 0
+        "duration": 1
       }
     ],
     "summary": {
       "passed": 2,
       "failed": 3,
       "total": 5,
-      "duration": 960
+      "duration": 601
     }
   },
   "MangaKakalot": {
@@ -52,21 +52,21 @@
         "name": "initialisation",
         "runner": {},
         "status": "pass",
-        "duration": 60
+        "duration": 54
       },
       {
         "name": "getSearchResults",
         "runner": {},
         "status": "fail",
         "error": "Error: Cloudflare detected, bypass it to continue!",
-        "duration": 101
+        "duration": 166
       },
       {
         "name": "getMangaDetails",
         "runner": {},
         "status": "fail",
         "error": "Error: No `mangaId` provided in test data. Unable to infer from `SearchResultsProviding.getSearchResults`",
-        "duration": 1
+        "duration": 0
       },
       {
         "name": "getChapters",
@@ -80,14 +80,14 @@
         "runner": {},
         "status": "fail",
         "error": "Error: No `sourceManga` provided in test data. Unable to infer from `MangaProviding.getMangaDetails`",
-        "duration": 0
+        "duration": 1
       }
     ],
     "summary": {
       "passed": 1,
       "failed": 4,
       "total": 5,
-      "duration": 162
+      "duration": 221
     }
   },
   "MangaNato": {
@@ -98,20 +98,20 @@
         "name": "initialisation",
         "runner": {},
         "status": "pass",
-        "duration": 33
+        "duration": 30
       },
       {
         "name": "getSearchResults",
         "runner": {},
         "status": "pass",
-        "duration": 521
+        "duration": 493
       },
       {
         "name": "getMangaDetails",
         "runner": {},
         "status": "fail",
         "error": "Error: Request failed with status 404: https://www.manganato.gg/manga/KVUMLM9",
-        "duration": 234
+        "duration": 124
       },
       {
         "name": "getChapters",
@@ -132,7 +132,7 @@
       "passed": 2,
       "failed": 3,
       "total": 5,
-      "duration": 788
+      "duration": 647
     }
   },
   "MangaNelo": {
@@ -150,14 +150,14 @@
         "runner": {},
         "status": "fail",
         "error": "Error: Cloudflare detected, bypass it to continue!",
-        "duration": 138
+        "duration": 145
       },
       {
         "name": "getMangaDetails",
         "runner": {},
         "status": "fail",
         "error": "Error: No `mangaId` provided in test data. Unable to infer from `SearchResultsProviding.getSearchResults`",
-        "duration": 1
+        "duration": 0
       },
       {
         "name": "getChapters",
@@ -178,7 +178,7 @@
       "passed": 1,
       "failed": 4,
       "total": 5,
-      "duration": 144
+      "duration": 150
     }
   }
 }
