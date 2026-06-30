@@ -7,27 +7,27 @@
         "name": "initialisation",
         "runner": {},
         "status": "pass",
-        "duration": 83
+        "duration": 78
       },
       {
         "name": "getSearchResults",
         "runner": {},
         "status": "pass",
-        "duration": 760
+        "duration": 589
       },
       {
         "name": "getMangaDetails",
         "runner": {},
         "status": "fail",
         "error": "Error: Request failed with status 404: https://www.mangabats.com/manga/3QZAlLr",
-        "duration": 199
+        "duration": 216
       },
       {
         "name": "getChapters",
         "runner": {},
         "status": "fail",
         "error": "Error: No `sourceManga` provided in test data. Unable to infer from `MangaProviding.getMangaDetails`",
-        "duration": 1
+        "duration": 0
       },
       {
         "name": "getChapterDetails",
@@ -41,7 +41,7 @@
       "passed": 2,
       "failed": 3,
       "total": 5,
-      "duration": 1043
+      "duration": 883
     }
   },
   "MangaKakalot": {
@@ -52,14 +52,14 @@
         "name": "initialisation",
         "runner": {},
         "status": "pass",
-        "duration": 58
+        "duration": 53
       },
       {
         "name": "getSearchResults",
         "runner": {},
         "status": "fail",
         "error": "Error: Cloudflare detected, bypass it to continue!",
-        "duration": 176
+        "duration": 172
       },
       {
         "name": "getMangaDetails",
@@ -73,21 +73,21 @@
         "runner": {},
         "status": "fail",
         "error": "Error: No `sourceManga` provided in test data. Unable to infer from `MangaProviding.getMangaDetails`",
-        "duration": 1
+        "duration": 0
       },
       {
         "name": "getChapterDetails",
         "runner": {},
         "status": "fail",
         "error": "Error: No `sourceManga` provided in test data. Unable to infer from `MangaProviding.getMangaDetails`",
-        "duration": 0
+        "duration": 1
       }
     ],
     "summary": {
       "passed": 1,
       "failed": 4,
       "total": 5,
-      "duration": 235
+      "duration": 226
     }
   },
   "MangaNato": {
@@ -98,20 +98,20 @@
         "name": "initialisation",
         "runner": {},
         "status": "pass",
-        "duration": 31
+        "duration": 29
       },
       {
         "name": "getSearchResults",
         "runner": {},
         "status": "pass",
-        "duration": 862
+        "duration": 478
       },
       {
         "name": "getMangaDetails",
         "runner": {},
         "status": "fail",
         "error": "Error: Request failed with status 404: https://www.manganato.gg/manga/3QZAlLr",
-        "duration": 348
+        "duration": 129
       },
       {
         "name": "getChapters",
@@ -132,7 +132,7 @@
       "passed": 2,
       "failed": 3,
       "total": 5,
-      "duration": 1241
+      "duration": 636
     }
   },
   "MangaNelo": {
@@ -150,7 +150,7 @@
         "runner": {},
         "status": "fail",
         "error": "Error: Cloudflare detected, bypass it to continue!",
-        "duration": 229
+        "duration": 175
       },
       {
         "name": "getMangaDetails",
@@ -171,14 +171,14 @@
         "runner": {},
         "status": "fail",
         "error": "Error: No `sourceManga` provided in test data. Unable to infer from `MangaProviding.getMangaDetails`",
-        "duration": 0
+        "duration": 1
       }
     ],
     "summary": {
       "passed": 1,
       "failed": 4,
       "total": 5,
-      "duration": 235
+      "duration": 181
     }
   }
 }
