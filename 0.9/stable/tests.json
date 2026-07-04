@@ -7,38 +7,40 @@
         "name": "initialisation",
         "runner": {},
         "status": "pass",
-        "duration": 81
+        "duration": 79
       },
       {
         "name": "getSearchResults",
         "runner": {},
         "status": "pass",
-        "duration": 384
+        "duration": 305
       },
       {
         "name": "getMangaDetails",
         "runner": {},
         "status": "pass",
-        "duration": 126
+        "duration": 83
       },
       {
         "name": "getChapters",
         "runner": {},
-        "status": "pass",
-        "duration": 124
+        "status": "fail",
+        "error": "Error: Request failed with status 500: https://www.mangabats.com/api/manga/sss-rank-dungeon-de-knife-ichihon-tewatasare-tsuihou-sareta-hakuma-doushi-yggdrasil-no-noroi-niyori-jakuten-dearu-maryoku-fusoku-o-kokufukushi-sekai-saikyou-e-to-itaru/chapters?limit=9000&offset=0",
+        "duration": 406
       },
       {
         "name": "getChapterDetails",
         "runner": {},
-        "status": "pass",
-        "duration": 362
+        "status": "fail",
+        "error": "Error: No `sourceManga` provided in test data. Unable to infer from `MangaProviding.getMangaDetails`",
+        "duration": 1
       }
     ],
     "summary": {
-      "passed": 5,
-      "failed": 0,
+      "passed": 3,
+      "failed": 2,
       "total": 5,
-      "duration": 1077
+      "duration": 874
     }
   },
   "MangaKakalot": {
@@ -49,14 +51,14 @@
         "name": "initialisation",
         "runner": {},
         "status": "pass",
-        "duration": 56
+        "duration": 54
       },
       {
         "name": "getSearchResults",
         "runner": {},
         "status": "fail",
         "error": "Error: Cloudflare detected, bypass it to continue!",
-        "duration": 221
+        "duration": 213
       },
       {
         "name": "getMangaDetails",
@@ -70,7 +72,7 @@
         "runner": {},
         "status": "fail",
         "error": "Error: No `sourceManga` provided in test data. Unable to infer from `MangaProviding.getMangaDetails`",
-        "duration": 1
+        "duration": 0
       },
       {
         "name": "getChapterDetails",
@@ -84,7 +86,7 @@
       "passed": 1,
       "failed": 4,
       "total": 5,
-      "duration": 279
+      "duration": 267
     }
   },
   "MangaNato": {
@@ -95,38 +97,40 @@
         "name": "initialisation",
         "runner": {},
         "status": "pass",
-        "duration": 30
+        "duration": 29
       },
       {
         "name": "getSearchResults",
         "runner": {},
         "status": "pass",
-        "duration": 301
+        "duration": 781
       },
       {
         "name": "getMangaDetails",
         "runner": {},
         "status": "pass",
-        "duration": 153
+        "duration": 426
       },
       {
         "name": "getChapters",
         "runner": {},
-        "status": "pass",
-        "duration": 54
+        "status": "fail",
+        "error": "Error: Request failed with status 500: https://www.manganato.gg/api/manga/sss-rank-dungeon-de-knife-ichihon-tewatasare-tsuihou-sareta-hakuma-doushi-yggdrasil-no-noroi-niyori-jakuten-dearu-maryoku-fusoku-o-kokufukushi-sekai-saikyou-e-to-itaru/chapters?limit=9000&offset=0",
+        "duration": 363
       },
       {
         "name": "getChapterDetails",
         "runner": {},
-        "status": "pass",
-        "duration": 53
+        "status": "fail",
+        "error": "Error: No `sourceManga` provided in test data. Unable to infer from `MangaProviding.getMangaDetails`",
+        "duration": 0
       }
     ],
     "summary": {
-      "passed": 5,
-      "failed": 0,
+      "passed": 3,
+      "failed": 2,
       "total": 5,
-      "duration": 591
+      "duration": 1599
     }
   },
   "MangaNelo": {
@@ -137,14 +141,14 @@
         "name": "initialisation",
         "runner": {},
         "status": "pass",
-        "duration": 8
+        "duration": 5
       },
       {
         "name": "getSearchResults",
         "runner": {},
         "status": "fail",
         "error": "Error: Cloudflare detected, bypass it to continue!",
-        "duration": 218
+        "duration": 305
       },
       {
         "name": "getMangaDetails",
@@ -172,7 +176,7 @@
       "passed": 1,
       "failed": 4,
       "total": 5,
-      "duration": 227
+      "duration": 310
     }
   }
 }
