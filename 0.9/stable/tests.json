@@ -7,40 +7,38 @@
         "name": "initialisation",
         "runner": {},
         "status": "pass",
-        "duration": 79
+        "duration": 78
       },
       {
         "name": "getSearchResults",
         "runner": {},
         "status": "pass",
-        "duration": 305
+        "duration": 312
       },
       {
         "name": "getMangaDetails",
         "runner": {},
         "status": "pass",
-        "duration": 83
+        "duration": 81
       },
       {
         "name": "getChapters",
         "runner": {},
-        "status": "fail",
-        "error": "Error: Request failed with status 500: https://www.mangabats.com/api/manga/sss-rank-dungeon-de-knife-ichihon-tewatasare-tsuihou-sareta-hakuma-doushi-yggdrasil-no-noroi-niyori-jakuten-dearu-maryoku-fusoku-o-kokufukushi-sekai-saikyou-e-to-itaru/chapters?limit=9000&offset=0",
-        "duration": 406
+        "status": "pass",
+        "duration": 121
       },
       {
         "name": "getChapterDetails",
         "runner": {},
-        "status": "fail",
-        "error": "Error: No `sourceManga` provided in test data. Unable to infer from `MangaProviding.getMangaDetails`",
-        "duration": 1
+        "status": "pass",
+        "duration": 123
       }
     ],
     "summary": {
-      "passed": 3,
-      "failed": 2,
+      "passed": 5,
+      "failed": 0,
       "total": 5,
-      "duration": 874
+      "duration": 715
     }
   },
   "MangaKakalot": {
@@ -58,14 +56,14 @@
         "runner": {},
         "status": "fail",
         "error": "Error: Cloudflare detected, bypass it to continue!",
-        "duration": 213
+        "duration": 232
       },
       {
         "name": "getMangaDetails",
         "runner": {},
         "status": "fail",
         "error": "Error: No `mangaId` provided in test data. Unable to infer from `SearchResultsProviding.getSearchResults`",
-        "duration": 0
+        "duration": 1
       },
       {
         "name": "getChapters",
@@ -86,7 +84,7 @@
       "passed": 1,
       "failed": 4,
       "total": 5,
-      "duration": 267
+      "duration": 287
     }
   },
   "MangaNato": {
@@ -97,40 +95,38 @@
         "name": "initialisation",
         "runner": {},
         "status": "pass",
-        "duration": 29
+        "duration": 28
       },
       {
         "name": "getSearchResults",
         "runner": {},
         "status": "pass",
-        "duration": 781
+        "duration": 594
       },
       {
         "name": "getMangaDetails",
         "runner": {},
         "status": "pass",
-        "duration": 426
+        "duration": 374
       },
       {
         "name": "getChapters",
         "runner": {},
-        "status": "fail",
-        "error": "Error: Request failed with status 500: https://www.manganato.gg/api/manga/sss-rank-dungeon-de-knife-ichihon-tewatasare-tsuihou-sareta-hakuma-doushi-yggdrasil-no-noroi-niyori-jakuten-dearu-maryoku-fusoku-o-kokufukushi-sekai-saikyou-e-to-itaru/chapters?limit=9000&offset=0",
-        "duration": 363
+        "status": "pass",
+        "duration": 130
       },
       {
         "name": "getChapterDetails",
         "runner": {},
-        "status": "fail",
-        "error": "Error: No `sourceManga` provided in test data. Unable to infer from `MangaProviding.getMangaDetails`",
-        "duration": 0
+        "status": "pass",
+        "duration": 57
       }
     ],
     "summary": {
-      "passed": 3,
-      "failed": 2,
+      "passed": 5,
+      "failed": 0,
       "total": 5,
-      "duration": 1599
+      "duration": 1183
     }
   },
   "MangaNelo": {
@@ -141,14 +137,14 @@
         "name": "initialisation",
         "runner": {},
         "status": "pass",
-        "duration": 5
+        "duration": 4
       },
       {
         "name": "getSearchResults",
         "runner": {},
         "status": "fail",
         "error": "Error: Cloudflare detected, bypass it to continue!",
-        "duration": 305
+        "duration": 333
       },
       {
         "name": "getMangaDetails",
@@ -176,7 +172,7 @@
       "passed": 1,
       "failed": 4,
       "total": 5,
-      "duration": 310
+      "duration": 337
     }
   }
 }
