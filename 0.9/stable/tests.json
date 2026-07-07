@@ -7,38 +7,40 @@
         "name": "initialisation",
         "runner": {},
         "status": "pass",
-        "duration": 77
+        "duration": 127
       },
       {
         "name": "getSearchResults",
         "runner": {},
         "status": "pass",
-        "duration": 608
+        "duration": 533
       },
       {
         "name": "getMangaDetails",
         "runner": {},
         "status": "pass",
-        "duration": 153
+        "duration": 74
       },
       {
         "name": "getChapters",
         "runner": {},
-        "status": "pass",
-        "duration": 347
+        "status": "fail",
+        "error": "Error: Request failed with status 500: https://www.mangabats.com/api/manga/dungeon-de-service-zangyou-o-shite-ita-dake-nanoni-sasurai-no-s-kyuu-tansakusha-to-uwasa-ni-natte-shimaimashita/chapters?limit=9000&offset=0",
+        "duration": 360
       },
       {
         "name": "getChapterDetails",
         "runner": {},
-        "status": "pass",
-        "duration": 545
+        "status": "fail",
+        "error": "Error: No `sourceManga` provided in test data. Unable to infer from `MangaProviding.getMangaDetails`",
+        "duration": 1
       }
     ],
     "summary": {
-      "passed": 5,
-      "failed": 0,
+      "passed": 3,
+      "failed": 2,
       "total": 5,
-      "duration": 1730
+      "duration": 1095
     }
   },
   "MangaKakalot": {
@@ -49,21 +51,21 @@
         "name": "initialisation",
         "runner": {},
         "status": "pass",
-        "duration": 53
+        "duration": 82
       },
       {
         "name": "getSearchResults",
         "runner": {},
         "status": "fail",
         "error": "Error: Cloudflare detected, bypass it to continue!",
-        "duration": 251
+        "duration": 83
       },
       {
         "name": "getMangaDetails",
         "runner": {},
         "status": "fail",
         "error": "Error: No `mangaId` provided in test data. Unable to infer from `SearchResultsProviding.getSearchResults`",
-        "duration": 1
+        "duration": 0
       },
       {
         "name": "getChapters",
@@ -84,7 +86,7 @@
       "passed": 1,
       "failed": 4,
       "total": 5,
-      "duration": 305
+      "duration": 165
     }
   },
   "MangaNato": {
@@ -95,38 +97,40 @@
         "name": "initialisation",
         "runner": {},
         "status": "pass",
-        "duration": 27
+        "duration": 36
       },
       {
         "name": "getSearchResults",
         "runner": {},
         "status": "pass",
-        "duration": 683
+        "duration": 701
       },
       {
         "name": "getMangaDetails",
         "runner": {},
         "status": "pass",
-        "duration": 595
+        "duration": 82
       },
       {
         "name": "getChapters",
         "runner": {},
-        "status": "pass",
-        "duration": 373
+        "status": "fail",
+        "error": "Error: Request failed with status 500: https://www.manganato.gg/api/manga/dungeon-de-service-zangyou-o-shite-ita-dake-nanoni-sasurai-no-s-kyuu-tansakusha-to-uwasa-ni-natte-shimaimashita/chapters?limit=9000&offset=0",
+        "duration": 354
       },
       {
         "name": "getChapterDetails",
         "runner": {},
-        "status": "pass",
-        "duration": 404
+        "status": "fail",
+        "error": "Error: No `sourceManga` provided in test data. Unable to infer from `MangaProviding.getMangaDetails`",
+        "duration": 0
       }
     ],
     "summary": {
-      "passed": 5,
-      "failed": 0,
+      "passed": 3,
+      "failed": 2,
       "total": 5,
-      "duration": 2082
+      "duration": 1173
     }
   },
   "MangaNelo": {
@@ -144,14 +148,14 @@
         "runner": {},
         "status": "fail",
         "error": "Error: Cloudflare detected, bypass it to continue!",
-        "duration": 250
+        "duration": 126
       },
       {
         "name": "getMangaDetails",
         "runner": {},
         "status": "fail",
         "error": "Error: No `mangaId` provided in test data. Unable to infer from `SearchResultsProviding.getSearchResults`",
-        "duration": 0
+        "duration": 1
       },
       {
         "name": "getChapters",
@@ -165,14 +169,14 @@
         "runner": {},
         "status": "fail",
         "error": "Error: No `sourceManga` provided in test data. Unable to infer from `MangaProviding.getMangaDetails`",
-        "duration": 1
+        "duration": 0
       }
     ],
     "summary": {
       "passed": 1,
       "failed": 4,
       "total": 5,
-      "duration": 256
+      "duration": 132
     }
   }
 }
