@@ -7,39 +7,38 @@
         "name": "initialisation",
         "runner": {},
         "status": "pass",
-        "duration": 77
+        "duration": 94
       },
       {
         "name": "getSearchResults",
         "runner": {},
         "status": "pass",
-        "duration": 182
+        "duration": 251
       },
       {
         "name": "getMangaDetails",
         "runner": {},
         "status": "pass",
-        "duration": 72
+        "duration": 88
       },
       {
         "name": "getChapters",
         "runner": {},
         "status": "pass",
-        "duration": 355
+        "duration": 278
       },
       {
         "name": "getChapterDetails",
         "runner": {},
-        "status": "fail",
-        "error": "Error: Request failed with status 404: https://www.mangabats.com/manga/oi-kurotan/chapter-9-impossible",
-        "duration": 344
+        "status": "pass",
+        "duration": 599
       }
     ],
     "summary": {
-      "passed": 4,
-      "failed": 1,
+      "passed": 5,
+      "failed": 0,
       "total": 5,
-      "duration": 1030
+      "duration": 1310
     }
   },
   "MangaKakalot": {
@@ -50,14 +49,14 @@
         "name": "initialisation",
         "runner": {},
         "status": "pass",
-        "duration": 54
+        "duration": 68
       },
       {
         "name": "getSearchResults",
         "runner": {},
         "status": "fail",
         "error": "Error: Cloudflare detected, bypass it to continue!",
-        "duration": 202
+        "duration": 135
       },
       {
         "name": "getMangaDetails",
@@ -78,14 +77,14 @@
         "runner": {},
         "status": "fail",
         "error": "Error: No `sourceManga` provided in test data. Unable to infer from `MangaProviding.getMangaDetails`",
-        "duration": 0
+        "duration": 1
       }
     ],
     "summary": {
       "passed": 1,
       "failed": 4,
       "total": 5,
-      "duration": 256
+      "duration": 204
     }
   },
   "MangaNato": {
@@ -96,39 +95,38 @@
         "name": "initialisation",
         "runner": {},
         "status": "pass",
-        "duration": 28
+        "duration": 38
       },
       {
         "name": "getSearchResults",
         "runner": {},
         "status": "pass",
-        "duration": 777
+        "duration": 611
       },
       {
         "name": "getMangaDetails",
         "runner": {},
         "status": "pass",
-        "duration": 612
+        "duration": 464
       },
       {
         "name": "getChapters",
         "runner": {},
         "status": "pass",
-        "duration": 434
+        "duration": 394
       },
       {
         "name": "getChapterDetails",
         "runner": {},
-        "status": "fail",
-        "error": "Error: Request failed with status 404: https://www.manganato.gg/manga/oi-kurotan/chapter-9-impossible",
-        "duration": 353
+        "status": "pass",
+        "duration": 605
       }
     ],
     "summary": {
-      "passed": 4,
-      "failed": 1,
+      "passed": 5,
+      "failed": 0,
       "total": 5,
-      "duration": 2204
+      "duration": 2112
     }
   },
   "MangaNelo": {
@@ -146,14 +144,14 @@
         "runner": {},
         "status": "fail",
         "error": "Error: Cloudflare detected, bypass it to continue!",
-        "duration": 261
+        "duration": 251
       },
       {
         "name": "getMangaDetails",
         "runner": {},
         "status": "fail",
         "error": "Error: No `mangaId` provided in test data. Unable to infer from `SearchResultsProviding.getSearchResults`",
-        "duration": 1
+        "duration": 0
       },
       {
         "name": "getChapters",
@@ -167,14 +165,14 @@
         "runner": {},
         "status": "fail",
         "error": "Error: No `sourceManga` provided in test data. Unable to infer from `MangaProviding.getMangaDetails`",
-        "duration": 0
+        "duration": 1
       }
     ],
     "summary": {
       "passed": 1,
       "failed": 4,
       "total": 5,
-      "duration": 267
+      "duration": 257
     }
   }
 }
