@@ -7,38 +7,40 @@
         "name": "initialisation",
         "runner": {},
         "status": "pass",
-        "duration": 78
+        "duration": 81
       },
       {
         "name": "getSearchResults",
         "runner": {},
         "status": "pass",
-        "duration": 471
+        "duration": 438
       },
       {
         "name": "getMangaDetails",
         "runner": {},
         "status": "pass",
-        "duration": 380
+        "duration": 67
       },
       {
         "name": "getChapters",
         "runner": {},
-        "status": "pass",
-        "duration": 223
+        "status": "fail",
+        "error": "Error: Request failed with status 500: https://www.mangabats.com/api/manga/the-ghost-in-the-shell-1-5-human-error-processor/chapters?limit=9000&offset=0",
+        "duration": 306
       },
       {
         "name": "getChapterDetails",
         "runner": {},
-        "status": "pass",
-        "duration": 337
+        "status": "fail",
+        "error": "Error: No `sourceManga` provided in test data. Unable to infer from `MangaProviding.getMangaDetails`",
+        "duration": 1
       }
     ],
     "summary": {
-      "passed": 5,
-      "failed": 0,
+      "passed": 3,
+      "failed": 2,
       "total": 5,
-      "duration": 1489
+      "duration": 893
     }
   },
   "MangaKakalot": {
@@ -49,14 +51,14 @@
         "name": "initialisation",
         "runner": {},
         "status": "pass",
-        "duration": 55
+        "duration": 56
       },
       {
         "name": "getSearchResults",
         "runner": {},
         "status": "fail",
         "error": "Error: Cloudflare detected, bypass it to continue!",
-        "duration": 274
+        "duration": 95
       },
       {
         "name": "getMangaDetails",
@@ -84,7 +86,7 @@
       "passed": 1,
       "failed": 4,
       "total": 5,
-      "duration": 329
+      "duration": 151
     }
   },
   "MangaNato": {
@@ -101,32 +103,34 @@
         "name": "getSearchResults",
         "runner": {},
         "status": "pass",
-        "duration": 697
+        "duration": 585
       },
       {
         "name": "getMangaDetails",
         "runner": {},
         "status": "pass",
-        "duration": 89
+        "duration": 64
       },
       {
         "name": "getChapters",
         "runner": {},
-        "status": "pass",
-        "duration": 214
+        "status": "fail",
+        "error": "Error: Request failed with status 500: https://www.manganato.gg/api/manga/the-ghost-in-the-shell-1-5-human-error-processor/chapters?limit=9000&offset=0",
+        "duration": 327
       },
       {
         "name": "getChapterDetails",
         "runner": {},
-        "status": "pass",
-        "duration": 279
+        "status": "fail",
+        "error": "Error: No `sourceManga` provided in test data. Unable to infer from `MangaProviding.getMangaDetails`",
+        "duration": 0
       }
     ],
     "summary": {
-      "passed": 5,
-      "failed": 0,
+      "passed": 3,
+      "failed": 2,
       "total": 5,
-      "duration": 1308
+      "duration": 1005
     }
   },
   "MangaNelo": {
@@ -137,14 +141,14 @@
         "name": "initialisation",
         "runner": {},
         "status": "pass",
-        "duration": 5
+        "duration": 4
       },
       {
         "name": "getSearchResults",
         "runner": {},
         "status": "fail",
         "error": "Error: Cloudflare detected, bypass it to continue!",
-        "duration": 358
+        "duration": 172
       },
       {
         "name": "getMangaDetails",
@@ -158,21 +162,21 @@
         "runner": {},
         "status": "fail",
         "error": "Error: No `sourceManga` provided in test data. Unable to infer from `MangaProviding.getMangaDetails`",
-        "duration": 0
+        "duration": 1
       },
       {
         "name": "getChapterDetails",
         "runner": {},
         "status": "fail",
         "error": "Error: No `sourceManga` provided in test data. Unable to infer from `MangaProviding.getMangaDetails`",
-        "duration": 1
+        "duration": 0
       }
     ],
     "summary": {
       "passed": 1,
       "failed": 4,
       "total": 5,
-      "duration": 364
+      "duration": 177
     }
   }
 }
