@@ -7,40 +7,38 @@
         "name": "initialisation",
         "runner": {},
         "status": "pass",
-        "duration": 81
+        "duration": 79
       },
       {
         "name": "getSearchResults",
         "runner": {},
         "status": "pass",
-        "duration": 438
+        "duration": 4332
       },
       {
         "name": "getMangaDetails",
         "runner": {},
         "status": "pass",
-        "duration": 67
+        "duration": 607
       },
       {
         "name": "getChapters",
         "runner": {},
-        "status": "fail",
-        "error": "Error: Request failed with status 500: https://www.mangabats.com/api/manga/the-ghost-in-the-shell-1-5-human-error-processor/chapters?limit=9000&offset=0",
-        "duration": 306
+        "status": "pass",
+        "duration": 196
       },
       {
         "name": "getChapterDetails",
         "runner": {},
-        "status": "fail",
-        "error": "Error: No `sourceManga` provided in test data. Unable to infer from `MangaProviding.getMangaDetails`",
-        "duration": 1
+        "status": "pass",
+        "duration": 559
       }
     ],
     "summary": {
-      "passed": 3,
-      "failed": 2,
+      "passed": 5,
+      "failed": 0,
       "total": 5,
-      "duration": 893
+      "duration": 5773
     }
   },
   "MangaKakalot": {
@@ -51,14 +49,14 @@
         "name": "initialisation",
         "runner": {},
         "status": "pass",
-        "duration": 56
+        "duration": 55
       },
       {
         "name": "getSearchResults",
         "runner": {},
         "status": "fail",
         "error": "Error: Cloudflare detected, bypass it to continue!",
-        "duration": 95
+        "duration": 286
       },
       {
         "name": "getMangaDetails",
@@ -86,7 +84,7 @@
       "passed": 1,
       "failed": 4,
       "total": 5,
-      "duration": 151
+      "duration": 341
     }
   },
   "MangaNato": {
@@ -103,34 +101,32 @@
         "name": "getSearchResults",
         "runner": {},
         "status": "pass",
-        "duration": 585
+        "duration": 977
       },
       {
         "name": "getMangaDetails",
         "runner": {},
         "status": "pass",
-        "duration": 64
+        "duration": 584
       },
       {
         "name": "getChapters",
         "runner": {},
-        "status": "fail",
-        "error": "Error: Request failed with status 500: https://www.manganato.gg/api/manga/the-ghost-in-the-shell-1-5-human-error-processor/chapters?limit=9000&offset=0",
-        "duration": 327
+        "status": "pass",
+        "duration": 929
       },
       {
         "name": "getChapterDetails",
         "runner": {},
-        "status": "fail",
-        "error": "Error: No `sourceManga` provided in test data. Unable to infer from `MangaProviding.getMangaDetails`",
-        "duration": 0
+        "status": "pass",
+        "duration": 581
       }
     ],
     "summary": {
-      "passed": 3,
-      "failed": 2,
+      "passed": 5,
+      "failed": 0,
       "total": 5,
-      "duration": 1005
+      "duration": 3100
     }
   },
   "MangaNelo": {
@@ -141,14 +137,14 @@
         "name": "initialisation",
         "runner": {},
         "status": "pass",
-        "duration": 4
+        "duration": 5
       },
       {
         "name": "getSearchResults",
         "runner": {},
         "status": "fail",
         "error": "Error: Cloudflare detected, bypass it to continue!",
-        "duration": 172
+        "duration": 293
       },
       {
         "name": "getMangaDetails",
@@ -162,7 +158,7 @@
         "runner": {},
         "status": "fail",
         "error": "Error: No `sourceManga` provided in test data. Unable to infer from `MangaProviding.getMangaDetails`",
-        "duration": 1
+        "duration": 0
       },
       {
         "name": "getChapterDetails",
@@ -176,7 +172,7 @@
       "passed": 1,
       "failed": 4,
       "total": 5,
-      "duration": 177
+      "duration": 298
     }
   }
 }
