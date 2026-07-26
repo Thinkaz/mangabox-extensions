@@ -7,38 +7,40 @@
         "name": "initialisation",
         "runner": {},
         "status": "pass",
-        "duration": 83
+        "duration": 59
       },
       {
         "name": "getSearchResults",
         "runner": {},
         "status": "pass",
-        "duration": 883
+        "duration": 211
       },
       {
         "name": "getMangaDetails",
         "runner": {},
         "status": "pass",
-        "duration": 546
+        "duration": 67
       },
       {
         "name": "getChapters",
         "runner": {},
-        "status": "pass",
-        "duration": 335
+        "status": "fail",
+        "error": "Error: Request failed with status 500: https://www.mangabats.com/api/manga/i-committed-a-one-night-mistake-with-the-young-lady/chapters?limit=9000&offset=0",
+        "duration": 402
       },
       {
         "name": "getChapterDetails",
         "runner": {},
-        "status": "pass",
-        "duration": 565
+        "status": "fail",
+        "error": "Error: No `sourceManga` provided in test data. Unable to infer from `MangaProviding.getMangaDetails`",
+        "duration": 0
       }
     ],
     "summary": {
-      "passed": 5,
-      "failed": 0,
+      "passed": 3,
+      "failed": 2,
       "total": 5,
-      "duration": 2412
+      "duration": 739
     }
   },
   "MangaKakalot": {
@@ -49,28 +51,28 @@
         "name": "initialisation",
         "runner": {},
         "status": "pass",
-        "duration": 58
+        "duration": 40
       },
       {
         "name": "getSearchResults",
         "runner": {},
         "status": "fail",
         "error": "Error: Cloudflare detected, bypass it to continue!",
-        "duration": 269
+        "duration": 216
       },
       {
         "name": "getMangaDetails",
         "runner": {},
         "status": "fail",
         "error": "Error: No `mangaId` provided in test data. Unable to infer from `SearchResultsProviding.getSearchResults`",
-        "duration": 0
+        "duration": 1
       },
       {
         "name": "getChapters",
         "runner": {},
         "status": "fail",
         "error": "Error: No `sourceManga` provided in test data. Unable to infer from `MangaProviding.getMangaDetails`",
-        "duration": 1
+        "duration": 0
       },
       {
         "name": "getChapterDetails",
@@ -84,7 +86,7 @@
       "passed": 1,
       "failed": 4,
       "total": 5,
-      "duration": 328
+      "duration": 257
     }
   },
   "MangaNato": {
@@ -95,38 +97,41 @@
         "name": "initialisation",
         "runner": {},
         "status": "pass",
-        "duration": 32
+        "duration": 20
       },
       {
         "name": "getSearchResults",
         "runner": {},
         "status": "pass",
-        "duration": 795
+        "duration": 600
       },
       {
         "name": "getMangaDetails",
         "runner": {},
-        "status": "pass",
-        "duration": 577
+        "status": "fail",
+        "error": "Error: Request failed with status 500: https://www.manganato.gg/manga/chicken-club",
+        "duration": 237
       },
       {
         "name": "getChapters",
         "runner": {},
-        "status": "pass",
-        "duration": 185
+        "status": "fail",
+        "error": "Error: No `sourceManga` provided in test data. Unable to infer from `MangaProviding.getMangaDetails`",
+        "duration": 0
       },
       {
         "name": "getChapterDetails",
         "runner": {},
-        "status": "pass",
-        "duration": 525
+        "status": "fail",
+        "error": "Error: No `sourceManga` provided in test data. Unable to infer from `MangaProviding.getMangaDetails`",
+        "duration": 0
       }
     ],
     "summary": {
-      "passed": 5,
-      "failed": 0,
+      "passed": 2,
+      "failed": 3,
       "total": 5,
-      "duration": 2114
+      "duration": 857
     }
   },
   "MangaNelo": {
@@ -137,14 +142,14 @@
         "name": "initialisation",
         "runner": {},
         "status": "pass",
-        "duration": 6
+        "duration": 3
       },
       {
         "name": "getSearchResults",
         "runner": {},
         "status": "fail",
         "error": "Error: Cloudflare detected, bypass it to continue!",
-        "duration": 267
+        "duration": 291
       },
       {
         "name": "getMangaDetails",
@@ -158,7 +163,7 @@
         "runner": {},
         "status": "fail",
         "error": "Error: No `sourceManga` provided in test data. Unable to infer from `MangaProviding.getMangaDetails`",
-        "duration": 1
+        "duration": 0
       },
       {
         "name": "getChapterDetails",
@@ -172,7 +177,7 @@
       "passed": 1,
       "failed": 4,
       "total": 5,
-      "duration": 274
+      "duration": 294
     }
   }
 }
