@@ -7,38 +7,41 @@
         "name": "initialisation",
         "runner": {},
         "status": "pass",
-        "duration": 82
+        "duration": 76
       },
       {
         "name": "getSearchResults",
         "runner": {},
         "status": "pass",
-        "duration": 425
+        "duration": 944
       },
       {
         "name": "getMangaDetails",
         "runner": {},
-        "status": "pass",
-        "duration": 362
+        "status": "fail",
+        "error": "Error: Request failed with status 500: https://www.mangabats.com/manga/extracting-my-way-to-become-the-undead-archmage",
+        "duration": 308
       },
       {
         "name": "getChapters",
         "runner": {},
-        "status": "pass",
-        "duration": 206
+        "status": "fail",
+        "error": "Error: No `sourceManga` provided in test data. Unable to infer from `MangaProviding.getMangaDetails`",
+        "duration": 0
       },
       {
         "name": "getChapterDetails",
         "runner": {},
-        "status": "pass",
-        "duration": 336
+        "status": "fail",
+        "error": "Error: No `sourceManga` provided in test data. Unable to infer from `MangaProviding.getMangaDetails`",
+        "duration": 1
       }
     ],
     "summary": {
-      "passed": 5,
-      "failed": 0,
+      "passed": 2,
+      "failed": 3,
       "total": 5,
-      "duration": 1411
+      "duration": 1329
     }
   },
   "MangaKakalot": {
@@ -49,14 +52,14 @@
         "name": "initialisation",
         "runner": {},
         "status": "pass",
-        "duration": 56
+        "duration": 52
       },
       {
         "name": "getSearchResults",
         "runner": {},
         "status": "fail",
         "error": "Error: Cloudflare detected, bypass it to continue!",
-        "duration": 87
+        "duration": 855
       },
       {
         "name": "getMangaDetails",
@@ -84,7 +87,7 @@
       "passed": 1,
       "failed": 4,
       "total": 5,
-      "duration": 143
+      "duration": 907
     }
   },
   "MangaNato": {
@@ -95,38 +98,41 @@
         "name": "initialisation",
         "runner": {},
         "status": "pass",
-        "duration": 29
+        "duration": 28
       },
       {
         "name": "getSearchResults",
         "runner": {},
         "status": "pass",
-        "duration": 505
+        "duration": 1217
       },
       {
         "name": "getMangaDetails",
         "runner": {},
-        "status": "pass",
-        "duration": 369
+        "status": "fail",
+        "error": "Error: Request failed with status 500: https://www.manganato.gg/manga/extracting-my-way-to-become-the-undead-archmage",
+        "duration": 290
       },
       {
         "name": "getChapters",
         "runner": {},
-        "status": "pass",
-        "duration": 117
+        "status": "fail",
+        "error": "Error: No `sourceManga` provided in test data. Unable to infer from `MangaProviding.getMangaDetails`",
+        "duration": 1
       },
       {
         "name": "getChapterDetails",
         "runner": {},
-        "status": "pass",
-        "duration": 381
+        "status": "fail",
+        "error": "Error: No `sourceManga` provided in test data. Unable to infer from `MangaProviding.getMangaDetails`",
+        "duration": 0
       }
     ],
     "summary": {
-      "passed": 5,
-      "failed": 0,
+      "passed": 2,
+      "failed": 3,
       "total": 5,
-      "duration": 1401
+      "duration": 1536
     }
   },
   "MangaNelo": {
@@ -144,21 +150,21 @@
         "runner": {},
         "status": "fail",
         "error": "Error: Cloudflare detected, bypass it to continue!",
-        "duration": 90
+        "duration": 853
       },
       {
         "name": "getMangaDetails",
         "runner": {},
         "status": "fail",
         "error": "Error: No `mangaId` provided in test data. Unable to infer from `SearchResultsProviding.getSearchResults`",
-        "duration": 1
+        "duration": 0
       },
       {
         "name": "getChapters",
         "runner": {},
         "status": "fail",
         "error": "Error: No `sourceManga` provided in test data. Unable to infer from `MangaProviding.getMangaDetails`",
-        "duration": 0
+        "duration": 1
       },
       {
         "name": "getChapterDetails",
@@ -172,7 +178,7 @@
       "passed": 1,
       "failed": 4,
       "total": 5,
-      "duration": 96
+      "duration": 859
     }
   }
 }
