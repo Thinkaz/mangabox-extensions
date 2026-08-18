@@ -7,38 +7,40 @@
         "name": "initialisation",
         "runner": {},
         "status": "pass",
-        "duration": 80
+        "duration": 71
       },
       {
         "name": "getSearchResults",
         "runner": {},
         "status": "pass",
-        "duration": 612
+        "duration": 588
       },
       {
         "name": "getMangaDetails",
         "runner": {},
         "status": "pass",
-        "duration": 326
+        "duration": 490
       },
       {
         "name": "getChapters",
         "runner": {},
-        "status": "pass",
-        "duration": 151
+        "status": "fail",
+        "error": "Error: Request failed with status 500: https://www.mangabats.com/api/manga/cooking-for-the-stoic-prince/chapters?limit=9000&offset=0",
+        "duration": 395
       },
       {
         "name": "getChapterDetails",
         "runner": {},
-        "status": "pass",
-        "duration": 55
+        "status": "fail",
+        "error": "Error: No `sourceManga` provided in test data. Unable to infer from `MangaProviding.getMangaDetails`",
+        "duration": 0
       }
     ],
     "summary": {
-      "passed": 5,
-      "failed": 0,
+      "passed": 3,
+      "failed": 2,
       "total": 5,
-      "duration": 1224
+      "duration": 1544
     }
   },
   "MangaKakalot": {
@@ -49,21 +51,21 @@
         "name": "initialisation",
         "runner": {},
         "status": "pass",
-        "duration": 56
+        "duration": 48
       },
       {
         "name": "getSearchResults",
         "runner": {},
         "status": "fail",
         "error": "Error: Cloudflare detected, bypass it to continue!",
-        "duration": 184
+        "duration": 131
       },
       {
         "name": "getMangaDetails",
         "runner": {},
         "status": "fail",
         "error": "Error: No `mangaId` provided in test data. Unable to infer from `SearchResultsProviding.getSearchResults`",
-        "duration": 1
+        "duration": 0
       },
       {
         "name": "getChapters",
@@ -84,7 +86,7 @@
       "passed": 1,
       "failed": 4,
       "total": 5,
-      "duration": 241
+      "duration": 179
     }
   },
   "MangaNato": {
@@ -95,38 +97,40 @@
         "name": "initialisation",
         "runner": {},
         "status": "pass",
-        "duration": 31
+        "duration": 23
       },
       {
         "name": "getSearchResults",
         "runner": {},
         "status": "pass",
-        "duration": 505
+        "duration": 513
       },
       {
         "name": "getMangaDetails",
         "runner": {},
         "status": "pass",
-        "duration": 480
+        "duration": 312
       },
       {
         "name": "getChapters",
         "runner": {},
-        "status": "pass",
-        "duration": 260
+        "status": "fail",
+        "error": "Error: Request failed with status 500: https://www.manganato.gg/api/manga/cooking-for-the-stoic-prince/chapters?limit=9000&offset=0",
+        "duration": 377
       },
       {
         "name": "getChapterDetails",
         "runner": {},
-        "status": "pass",
-        "duration": 282
+        "status": "fail",
+        "error": "Error: No `sourceManga` provided in test data. Unable to infer from `MangaProviding.getMangaDetails`",
+        "duration": 1
       }
     ],
     "summary": {
-      "passed": 5,
-      "failed": 0,
+      "passed": 3,
+      "failed": 2,
       "total": 5,
-      "duration": 1558
+      "duration": 1226
     }
   },
   "MangaNelo": {
@@ -137,14 +141,14 @@
         "name": "initialisation",
         "runner": {},
         "status": "pass",
-        "duration": 5
+        "duration": 3
       },
       {
         "name": "getSearchResults",
         "runner": {},
         "status": "fail",
         "error": "Error: Cloudflare detected, bypass it to continue!",
-        "duration": 199
+        "duration": 243
       },
       {
         "name": "getMangaDetails",
@@ -172,7 +176,7 @@
       "passed": 1,
       "failed": 4,
       "total": 5,
-      "duration": 205
+      "duration": 247
     }
   }
 }
