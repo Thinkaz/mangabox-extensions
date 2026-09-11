@@ -7,38 +7,38 @@
         "name": "initialisation",
         "runner": {},
         "status": "pass",
-        "duration": 83
+        "duration": 82
       },
       {
         "name": "getSearchResults",
         "runner": {},
         "status": "pass",
-        "duration": 536
+        "duration": 532
       },
       {
         "name": "getMangaDetails",
         "runner": {},
         "status": "pass",
-        "duration": 353
+        "duration": 78
       },
       {
         "name": "getChapters",
         "runner": {},
         "status": "pass",
-        "duration": 208
+        "duration": 130
       },
       {
         "name": "getChapterDetails",
         "runner": {},
         "status": "pass",
-        "duration": 321
+        "duration": 349
       }
     ],
     "summary": {
       "passed": 5,
       "failed": 0,
       "total": 5,
-      "duration": 1501
+      "duration": 1171
     }
   },
   "MangaKakalot": {
@@ -49,14 +49,14 @@
         "name": "initialisation",
         "runner": {},
         "status": "pass",
-        "duration": 56
+        "duration": 58
       },
       {
         "name": "getSearchResults",
         "runner": {},
         "status": "fail",
         "error": "Error: Cloudflare detected, bypass it to continue!",
-        "duration": 278
+        "duration": 63
       },
       {
         "name": "getMangaDetails",
@@ -84,7 +84,7 @@
       "passed": 1,
       "failed": 4,
       "total": 5,
-      "duration": 334
+      "duration": 121
     }
   },
   "MangaNato": {
@@ -95,38 +95,38 @@
         "name": "initialisation",
         "runner": {},
         "status": "pass",
-        "duration": 29
+        "duration": 30
       },
       {
         "name": "getSearchResults",
         "runner": {},
         "status": "pass",
-        "duration": 604
+        "duration": 446
       },
       {
         "name": "getMangaDetails",
         "runner": {},
         "status": "pass",
-        "duration": 330
+        "duration": 1376
       },
       {
         "name": "getChapters",
         "runner": {},
         "status": "pass",
-        "duration": 207
+        "duration": 208
       },
       {
         "name": "getChapterDetails",
         "runner": {},
         "status": "pass",
-        "duration": 372
+        "duration": 347
       }
     ],
     "summary": {
       "passed": 5,
       "failed": 0,
       "total": 5,
-      "duration": 1542
+      "duration": 2407
     }
   },
   "MangaNelo": {
@@ -144,7 +144,7 @@
         "runner": {},
         "status": "fail",
         "error": "Error: Cloudflare detected, bypass it to continue!",
-        "duration": 292
+        "duration": 150
       },
       {
         "name": "getMangaDetails",
@@ -172,7 +172,7 @@
       "passed": 1,
       "failed": 4,
       "total": 5,
-      "duration": 297
+      "duration": 155
     }
   }
 }
